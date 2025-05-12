@@ -5,6 +5,10 @@ using OWML.ModHelper;
 
 namespace CTFTemplate
 {
+    public interface ICaptureTheAPI
+    {
+        public string Echo(string input);
+    }
     public class CTFTemplate : ModBehaviour
     {
         public static CTFTemplate Instance;
@@ -21,11 +25,14 @@ namespace CTFTemplate
         public void Start()
         {
             // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(CTFTemplate)} is loaded!", MessageType.Success);
+            ModHelper.Console.WriteLine($"Loaded the CTF Template/Example.", MessageType.Success);
 
             // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizons.LoadConfigs(this);
+
+            var CaptureTheAPI = ModHelper.Interaction.TryGetModApi<ICaptureTheAPI>("Onbvb.CaptureTheFlag");
+            ModHelper.Console.WriteLine(CaptureTheAPI.Echo("CTF Template called for CTF Mod and Succeeded!"), MessageType.Success);
 
             new Harmony("Onbvb.CTFTemplate").PatchAll(Assembly.GetExecutingAssembly());
 

@@ -6,5 +6,5 @@
   "uniqueName": "Onbvb.CTFTemplate",
   "version": "0.1.0",
   "owmlVersion": "2.15.1",
-  "dependencies": ["xen.NewHorizons"]
+  "dependencies": ["xen.NewHorizons", "Onbvb.CaptureTheFlag"]
 }
