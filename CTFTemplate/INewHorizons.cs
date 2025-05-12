@@ -5,7 +5,7 @@ using OWML.Common;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace FirstMod
+namespace CTFTemplate
 {
     public interface INewHorizons
     {
