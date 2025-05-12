@@ -1,0 +1,31 @@
+{
+    "name": "Simulation Spawn",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Basic Adversarial Simulation",
+    "Base": {
+        "groundSize": 100,
+        "surfaceSize": 101,
+        "surfaceGravity": 12
+    },
+    "Orbit": {
+        "isStatic": true,
+        "primaryBody": "Simulated Star",
+        "semiMajorAxis": 4000,
+        "inclination": 90
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Spawn": {
+        "shipSpawnPoints": [
+            {
+                "offset": {
+                    "x": 0,
+                    "y": 101,
+                    "z": 0
+                },
+                "isDefault": true
+            }
+        ]
+    }
+}
