@@ -23,7 +23,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FirstMod.csproj.user" />
+    <Content Include="CTFTemplate.csproj.user" />
   </ItemGroup>
   <ItemGroup>
     <None Include="planets\**\*.*">

@@ -3,11 +3,11 @@ using HarmonyLib;
 using OWML.Common;
 using OWML.ModHelper;
 
-namespace FirstMod
+namespace CTFTemplate
 {
-    public class FirstMod : ModBehaviour
+    public class CTFTemplate : ModBehaviour
     {
-        public static FirstMod Instance;
+        public static CTFTemplate Instance;
         public INewHorizons NewHorizons;
 
         public void Awake()
@@ -21,13 +21,13 @@ namespace FirstMod
         public void Start()
         {
             // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(FirstMod)} is loaded!", MessageType.Success);
+            ModHelper.Console.WriteLine($"My mod {nameof(CTFTemplate)} is loaded!", MessageType.Success);
 
             // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizons.LoadConfigs(this);
 
-            new Harmony("Onbvb.FirstMod").PatchAll(Assembly.GetExecutingAssembly());
+            new Harmony("Onbvb.CTFTemplate").PatchAll(Assembly.GetExecutingAssembly());
 
             // Example of accessing game code.
             OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
