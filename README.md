@@ -11,3 +11,5 @@ There is a property in the system under "Extras" to denote this as a CTF system,
         }
     }
 ```
+TODO:
+Edit this repo when done with flag logic.
