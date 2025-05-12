@@ -8,11 +8,21 @@
         "surfaceGravity": 12
     },
     "Orbit": {
-        "semiMajorAxis": 4000,
+        "semiMajorAxis": 7000,
         "primaryBody": "Simulated Star",
-        "isTidallyLocked": true,
-        "initialRotation": 180
+        "isTidallyLocked": true
     },
+    "AmbientLights": [
+        {
+            "intensity": 1.4,
+            "tint": {
+                "r": 18,
+                "g": 30,
+                "b": 199,
+                "a": 255
+            }
+        }
+    ],
     "MapMarker": {
         "enabled": true
     },

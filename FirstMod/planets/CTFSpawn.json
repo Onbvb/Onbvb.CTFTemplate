@@ -10,8 +10,12 @@
     "Orbit": {
         "isStatic": true,
         "primaryBody": "Simulated Star",
-        "semiMajorAxis": 4000,
-        "inclination": 90
+        "semiMajorAxis": 7000,
+        "staticPosition": {
+            "x": 0,
+            "y": -7000,
+            "z": 0
+        }
     },
     "MapMarker": {
         "enabled": true
