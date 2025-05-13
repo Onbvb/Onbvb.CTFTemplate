@@ -41,13 +41,13 @@
                 "removeChildren": [
                     "ArcSocket/Prefab_NOM_Scroll"
                 ],
-                "rename": "Simulated Blue Base"
+                "rename": "Blue Base"
             }
         ],
         "signals": [
             {
                 "audio": "OW_NM_WhiteHoleAmbienceL",
-                "parentPath": "Sector/Simulated Blue Base",
+                "parentPath": "Sector/Blue Base",
                 "isRelativeToParent": true,
                 "name": "Blue Base",
                 "frequency": "Capture The Flag"
@@ -56,7 +56,7 @@
         "translatorText": [
             {
                 "rename": "Blue Team Flag",
-                "parentPath": "Sector/Simulated Blue Base",
+                "parentPath": "Sector/Blue Base/ArcSocket",
                 "type": "scroll",
                 "xmlFile": "xml/blueTeamFlag.xml"
             }

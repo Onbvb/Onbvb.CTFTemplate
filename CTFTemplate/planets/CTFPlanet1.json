@@ -57,14 +57,8 @@
                 "rename": "Red Team Flag",
                 "type": "scroll",
                 "xmlFile": "xml/redTeamFlag.xml",
-                "seed": 1,
-                "position": {
-                    "x": 5,
-                    "y": 5,
-                    "z": -205
-                },
-                "alignRadial": true
-            }
+                "parentPath": "Sector/Red Base/ArcSocket"
+                }
         ]
     }
 }
