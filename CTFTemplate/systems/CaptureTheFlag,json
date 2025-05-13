@@ -6,7 +6,17 @@
     "respawnHere": true,
     "enableTimeLoop": false,
     "GlobalMusic": {
-        "travelAudio": "planets/assets/Travel Audio.mp3"
+        "travelAudio": "NomaiRuinsBaseTrack"
+    },
+    "Skybox": {
+        "backPath": "systems/skybox/skybox.png",
+        "leftPath": "systems/skybox/skybox.png",
+        "rightPath": "systems/skybox/skybox.png",
+        "frontPath": "systems/skybox/skybox.png",
+        "topPath": "systems/skybox/skybox.png",
+        "bottomPath": "systems/skybox/skybox.png",
+        "destroyStarField": true,
+        "useCube": true
     },
     "extras": {
         "CTFInfo" : {

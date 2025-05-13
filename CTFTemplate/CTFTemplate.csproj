@@ -35,9 +35,6 @@
     <None Include="translations\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-	  <None Include ="xml\**\*.*">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
     <None Include="addon-manifest.json" Condition="Exists('addon-manifest.json')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

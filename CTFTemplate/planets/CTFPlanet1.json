@@ -31,9 +31,9 @@
             {
                 "path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/Prefab_NOM_Whiteboard (2)",
                 "position": {
-                    "x": 0,
+                    "x": 200,
                     "y": 0,
-                    "z": -200
+                    "z": 0
                 },
                 "alignRadial": true,
                 "scale": 1,
@@ -50,13 +50,20 @@
                 "isRelativeToParent": true,
                 "name": "Red Base",
                 "frequency": "Capture The Flag"
+            },
+            {
+                "audio": "TravelerNomai",
+                "parentPath": "Sector/Red Base/ArcSocket/Red Team Flag",
+                "isRelativeToParent": true,
+                "name": "Red Flag",
+                "frequency": "Capture The Flag"
             }
         ],
         "translatorText": [
             {
                 "rename": "Red Team Flag",
                 "type": "scroll",
-                "xmlFile": "xml/redTeamFlag.xml",
+                "xmlFile": "planets/xml/redTeamFlag.xml",
                 "parentPath": "Sector/Red Base/ArcSocket"
                 }
         ]
